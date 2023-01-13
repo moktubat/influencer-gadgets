@@ -9,6 +9,9 @@
 }
 
 /* Header Section */
+main{
+    background-color: #f0f0f0;
+}
 header a{
     color: #000;
 }
@@ -63,6 +66,7 @@ button{
 .banner-img{
     padding: 30px;
     background-image: url(../images/Circle\ design.svg);
+    background-repeat: no-repeat;
 }
 .stores{
     display: flex;
