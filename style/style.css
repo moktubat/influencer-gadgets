@@ -1,9 +1,165 @@
 /* Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
-/* common style */
+/* Utilities Styles */
 *{
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
+}
+
+/* Header Section */
+header a{
+    color: #000;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 55px 100px ;
+}
+.nav a{
+    text-decoration: none;
+    
+}
+.menubar ul{
+    display: flex;
+    gap: 30px;
+}
+.menubar ul li{
+    list-style: none;
+}
+
+/* Banner Section Styles */
+.container{
+    margin: 0 120px;
+}
+.banner{
+    display: flex;
+    align-items: center;
+}
+.banner-title{
+    font-size: 52px;
+    color: #3A3A3A;
+}
+.banner-description{
+    color: #3A3A3A;
+    font-weight: 600;
+}
+button{
+    margin-top: 30px;
+    border: none;
+}
+.btn-primary a{
+    text-decoration: none;
+    color: #fff;
+    background-color: #E02C6D;
+    border-radius: 41px;
+    padding: 10px 25px;
+}
+.fa-arrow-right-long{
+    background-color: #E02C6D;
+    margin-left: 7px;
+}
+.banner-img{
+    padding: 30px;
+    background-image: url(../images/Circle\ design.svg);
+}
+.stores{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 80px;
+}
+
+/* Popular Collections Section Styles */
+
+.collections-items{
+    margin: 100px 195px;
+}
+.collections-title{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 28px;
+    color: #3A3A3A;
+}
+.items{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    row-gap: 30px;
+    margin: 60px 0;
+}
+.item{
+    margin: 7px;
+}
+.item-title{
+    font-size: 28px;
+    font-weight: 500;
+}
+.item-price{
+    font-size: 24px;
+    font-weight: 400;
+}
+.rating{
+    font-weight: 700;
+    font-size: 14px;
+    color: #5E6366;
+}
+.fa-star, .fa-star-half-stroke{
+    color: #FB8200;
+}
+.fa-star-half-stroke{
+    margin-right: 7px;
+}
+
+.item-description{
+    color: #787885;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.seemore-btn{
+    text-align: right;
+}
+.seemore-btn a{
+    font-weight: 700;
+    text-decoration: none;
+    background-color: white;
+    color: #E02C6D;
+}
+
+.seemore-btn .fa-arrow-right-long{
+    background-color: white;
+}
+
+/* Featured Products Section Styles */
+
+.features{
+    display: flex;
+    align-items: center;
+    gap: 95px;
+    margin: 150px 150px;
+}
+
+/* Footer Section Styles */
+
+footer{
+    color: #fff;
+    background: #0A0826;
+    text-align: center;
+}
+.footer-title{
+    font-size: 24px;
+    padding-top: 50px;
+}
+.footer-description{
+    font-size: 14px;
+    font-weight: 700;
+    margin: 5px 0;
+}
+
+.social-profile{
+    margin: 0 15px;
+    margin-top: 17px;
+    margin-bottom: 50px;
 }
